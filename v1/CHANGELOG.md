@@ -1,5 +1,9 @@
 # Frosty V1 releases
 
+## 1.0.2 (2026-10-13)
+
+Louvre row follows the remote
+
 ## 1.0.1 (2026-10-13)
 
 Connections card, Firmware in Settings, Check now button
