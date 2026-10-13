@@ -1,0 +1,23 @@
+{
+  "name": "Frosty V1",
+  "version": "1.0.0",
+  "home_assistant_domain": "esphome",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "frosty-v1-1.0.0.factory.bin",
+          "offset": 0
+        }
+      ],
+      "ota": {
+        "path": "frosty-v1-1.0.0.ota.bin",
+        "md5": "435f17ebcd5633c71adb1cde6958cbac",
+        "summary": "First release: updates from Frosty",
+        "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v1/CHANGELOG.md"
+      }
+    }
+  ]
+}
