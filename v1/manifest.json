@@ -1,6 +1,6 @@
 {
   "name": "Frosty V1",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,14 +8,14 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "frosty-v1-1.0.3.factory.bin",
+          "path": "frosty-v1-1.0.4.factory.bin",
           "offset": 0
         }
       ],
       "ota": {
-        "path": "frosty-v1-1.0.3.ota.bin",
-        "md5": "80d3560b9cf7581acb934b92f198259f",
-        "summary": "Shows when Comfort hold is paused because the heat pump was changed, with a Resume button",
+        "path": "frosty-v1-1.0.4.ota.bin",
+        "md5": "260617b9516c37310a2dffcf459096f7",
+        "summary": "Time zone setting (set from your phone), so the schedule and logs use local time. Rectangular buttons.",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v1/CHANGELOG.md"
       }
     }

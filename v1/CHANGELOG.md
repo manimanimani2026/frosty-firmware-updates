@@ -1,5 +1,9 @@
 # Frosty V1 releases
 
+## 1.0.4 (2026-10-14)
+
+Time zone setting (set from your phone), so the schedule and logs use local time. Rectangular buttons.
+
 ## 1.0.3 (2026-10-13)
 
 Shows when Comfort hold is paused because the heat pump was changed, with a Resume button
