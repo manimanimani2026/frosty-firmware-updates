@@ -1,5 +1,9 @@
 # Frosty V1 releases
 
+## 1.0.5 (2026-10-15)
+
+Follow Me shows paused while the unit is off. Software update has its own card.
+
 ## 1.0.4 (2026-10-14)
 
 Time zone setting (set from your phone), so the schedule and logs use local time. Rectangular buttons.
