@@ -1,0 +1,23 @@
+{
+  "name": "Frosty V2",
+  "version": "1.0.0",
+  "home_assistant_domain": "esphome",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "frosty-v2-1.0.0.factory.bin",
+          "offset": 0
+        }
+      ],
+      "ota": {
+        "path": "frosty-v2-1.0.0.ota.bin",
+        "md5": "1b5365a36a46b9508f621c9d0ba9afa9",
+        "summary": "First V2 release: Frosty over the unit's own serial port, no dongle needed.",
+        "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
+      }
+    }
+  ]
+}
