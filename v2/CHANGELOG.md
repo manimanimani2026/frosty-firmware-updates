@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.0.3 (2026-10-22)
+
+Open Frosty at frosty.local — no address to remember.
+
 ## 1.0.2 (2026-10-22)
 
 Simpler Connections settings: the temperature sensor Frosty follows is now listed as "Temp sensor".
