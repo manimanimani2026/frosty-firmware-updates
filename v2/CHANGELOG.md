@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.0.2 (2026-10-22)
+
+Simpler Connections settings: the temperature sensor Frosty follows is now listed as "Temp sensor".
+
 ## 1.0.1 (2026-10-22)
 
 Tidier firmware: no changes you'll notice. The heat pump connection shows as built in.

@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,14 +8,14 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "frosty-v2-1.0.1.factory.bin",
+          "path": "frosty-v2-1.0.2.factory.bin",
           "offset": 0
         }
       ],
       "ota": {
-        "path": "frosty-v2-1.0.1.ota.bin",
-        "md5": "de0e4b7ed43fc2a8c315729effca756a",
-        "summary": "Tidier firmware: no changes you'll notice. The heat pump connection shows as built in.",
+        "path": "frosty-v2-1.0.2.ota.bin",
+        "md5": "ada50622f8c6f886fc83f38468720827",
+        "summary": "Simpler Connections settings: the temperature sensor Frosty follows is now listed as \"Temp sensor\".",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }
