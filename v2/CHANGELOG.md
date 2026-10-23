@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.0.6 (2026-10-23)
+
+Unit display button no longer flips back for a moment.
+
 ## 1.0.5 (2026-10-23)
 
 Switching the unit's display and °C/°F no longer beeps (with the Unit beeper off).
