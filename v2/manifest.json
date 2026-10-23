@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,14 +8,14 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "frosty-v2-1.0.8.factory.bin",
+          "path": "frosty-v2-1.0.9.factory.bin",
           "offset": 0
         }
       ],
       "ota": {
-        "path": "frosty-v2-1.0.8.ota.bin",
-        "md5": "0dae8192c84ce2cd7912762c2bc5dd91",
-        "summary": "Settings: choose Serial or IR for the unit's display and \u00b0C/\u00b0F.",
+        "path": "frosty-v2-1.0.9.ota.bin",
+        "md5": "b40ee24abb941506c9eef90d7d7f0100",
+        "summary": "Louvre and display changes no longer beep, and the display can be switched during quiet holds.",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }

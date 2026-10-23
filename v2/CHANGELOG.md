@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.0.9 (2026-10-23)
+
+Louvre and display changes no longer beep, and the display can be switched during quiet holds.
+
 ## 1.0.8 (2026-10-23)
 
 Settings: choose Serial or IR for the unit's display and °C/°F.
