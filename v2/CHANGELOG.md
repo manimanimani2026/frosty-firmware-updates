@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.0.8 (2026-10-23)
+
+Settings: choose Serial or IR for the unit's display and °C/°F.
+
 ## 1.0.7 (2026-10-23)
 
 Settings: choose Serial or IR for the unit's display and °C/°F.
