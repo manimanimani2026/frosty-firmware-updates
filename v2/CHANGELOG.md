@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.0.4 (2026-10-23)
+
+Logs: heating times now leave out time the unit was off.
+
 ## 1.0.3 (2026-10-22)
 
 Open Frosty at frosty.local — no address to remember.
