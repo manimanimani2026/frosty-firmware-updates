@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.1.10 (2026-10-23)
+
+New: Gear power cap (100/75/50%), Super heat preset, and Active clean in Settings
+
 ## 1.0.9 (2026-10-23)
 
 Louvre and display changes no longer beep, and the display can be switched during quiet holds.
