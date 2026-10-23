@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.0.5 (2026-10-23)
+
+Switching the unit's display and °C/°F no longer beeps (with the Unit beeper off).
+
 ## 1.0.4 (2026-10-23)
 
 Logs: heating times now leave out time the unit was off.

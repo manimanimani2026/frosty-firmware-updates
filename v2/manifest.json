@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,14 +8,14 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "frosty-v2-1.0.4.factory.bin",
+          "path": "frosty-v2-1.0.5.factory.bin",
           "offset": 0
         }
       ],
       "ota": {
-        "path": "frosty-v2-1.0.4.ota.bin",
-        "md5": "cb94be1660ec5845ff616059f17237c1",
-        "summary": "Logs: heating times now leave out time the unit was off.",
+        "path": "frosty-v2-1.0.5.ota.bin",
+        "md5": "39c76830a448e15eaeef50d919dc0451",
+        "summary": "Switching the unit's display and \u00b0C/\u00b0F no longer beeps (with the Unit beeper off).",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }
