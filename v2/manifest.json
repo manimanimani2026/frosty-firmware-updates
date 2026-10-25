@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,14 +8,14 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "frosty-v2-1.2.1.factory.bin",
+          "path": "frosty-v2-1.2.2.factory.bin",
           "offset": 0
         }
       ],
       "ota": {
-        "path": "frosty-v2-1.2.1.ota.bin",
-        "md5": "05c4857cdcfe3d21fbd50357b4e47652",
-        "summary": "Fix: Sweep (and the other louvre positions) now come back when the unit is switched on by the Schedule or from Frosty Comfort hold: \"Holding in 7m\" countdown while the room waits at the hold point; Hold at least moved under Wait before holding. Comfort hold: Resume at no longer shows the swing note. ",
+        "path": "frosty-v2-1.2.2.ota.bin",
+        "md5": "3f64470270f12774684de8b5c0788d4a",
+        "summary": "New: Settings screen behind the gear; the main page keeps the dial, Controls, Comfort hold and Schedule Settings: General, Connections and Software update open by default, Logs folded; an \"Update available\" line and a dot on the gear when an update is waiting. Controls: Gear is now \"Power cap\"; Active clean moved here and asks before starting. ",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }

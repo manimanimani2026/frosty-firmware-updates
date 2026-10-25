@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.2.2 (2026-10-25)
+
+New: Settings screen behind the gear; the main page keeps the dial, Controls, Comfort hold and Schedule Settings: General, Connections and Software update open by default, Logs folded; an "Update available" line and a dot on the gear when an update is waiting. Controls: Gear is now "Power cap"; Active clean moved here and asks before starting. 
+
 ## 1.2.1 (2026-10-25)
 
 Fix: Sweep (and the other louvre positions) now come back when the unit is switched on by the Schedule or from Frosty Comfort hold: "Holding in 7m" countdown while the room waits at the hold point; Hold at least moved under Wait before holding. Comfort hold: Resume at no longer shows the swing note. 
