@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.2.1 (2026-10-25)
+
+Fix: Sweep (and the other louvre positions) now come back when the unit is switched on by the Schedule or from Frosty Comfort hold: "Holding in 7m" countdown while the room waits at the hold point; Hold at least moved under Wait before holding. Comfort hold: Resume at no longer shows the swing note. 
+
 ## 1.2.0 (2026-10-25)
 
 New: Comfort hold at the setpoint, with adjustable band and wait
