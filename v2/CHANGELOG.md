@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.2.0 (2026-10-25)
+
+New: Comfort hold at the setpoint, with adjustable band and wait
+
 ## 1.1.10 (2026-10-23)
 
 New: Gear power cap (100/75/50%), Super heat preset, and Active clean in Settings
