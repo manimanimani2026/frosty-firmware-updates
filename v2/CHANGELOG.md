@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 1.2.3 (2026-10-26)
+
+A schedule entry during a Comfort hold now releases it right away if the room needs it, without waiting out Min Hold. Holds that start right after a restart are timed correctly.
+
 ## 1.2.2 (2026-10-25)
 
 New: Settings screen behind the gear; the main page keeps the dial, Controls, Comfort hold and Schedule Settings: General, Connections and Software update open by default, Logs folded; an "Update available" line and a dot on the gear when an update is waiting. Controls: Gear is now "Power cap"; Active clean moved here and asks before starting. 
