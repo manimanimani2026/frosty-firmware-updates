@@ -1,16 +1,16 @@
 {
   "name": "Frosty V2 (Matter test)",
-  "version": "matter-20",
+  "version": "matter-22",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "ota": {
-        "path": "frosty-matter-20.ota.bin",
-        "md5": "6f21bccd8e5cf6a6f2261a760e1b43d8",
-        "summary": "Matter test build (dd5e99a)",
-        "release_url": "https://github.com/manimanimani2026/ac-followme/commit/dd5e99a4aee9adf5c8f14251d090bfec10246537"
+        "path": "frosty-matter-22.ota.bin",
+        "md5": "b2007c5e1fbff1be188291b80e36b070",
+        "summary": "Matter test build (f7d170f)",
+        "release_url": "https://github.com/manimanimani2026/ac-followme/commit/f7d170fb3af47794f7c547774a90665466c4d1da"
       }
     }
   ]
