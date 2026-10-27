@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.0.1 (2026-10-27)
+
+Frosty shows the louvre position after using the handheld remote again, and the unit's own Follow Me and display reports.
+
 ## 2.0.0 (2026-10-27)
 
 Matter: Frosty in Apple Home, Google Home and Alexa (off until switched on in Settings → Home apps). Updates and installs pause Bluetooth to save memory. Frosty no longer flashes when switching views.

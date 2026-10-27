@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,14 +8,14 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.0.factory.bin",
+          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.1.factory.bin",
           "offset": 0
         }
       ],
       "ota": {
-        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.0.ota.bin",
-        "md5": "3e33f76cdf89507d071a65ba3616ac4b",
-        "summary": "Matter: Frosty in Apple Home, Google Home and Alexa (off until switched on in Settings \u2192 Home apps). Updates and installs pause Bluetooth to save memory. Frosty no longer flashes when switching views.",
+        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.1.ota.bin",
+        "md5": "3e8a2fc6b7518a26b19a20960006f0f9",
+        "summary": "Frosty shows the louvre position after using the handheld remote again, and the unit's own Follow Me and display reports.",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }
