@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "1.2.3",
+  "version": "2.0.0",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,14 +8,14 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "frosty-v2-1.2.3.factory.bin",
+          "path": "frosty-v2-2.0.0.factory.bin",
           "offset": 0
         }
       ],
       "ota": {
-        "path": "frosty-v2-1.2.3.ota.bin",
-        "md5": "32373dcb3d65f97fcbc547f0630f5c5c",
-        "summary": "A schedule entry during a Comfort hold now releases it right away if the room needs it, without waiting out Min Hold. Holds that start right after a restart are timed correctly.",
+        "path": "frosty-v2-2.0.0.ota.bin",
+        "md5": "3e33f76cdf89507d071a65ba3616ac4b",
+        "summary": "Matter: Frosty in Apple Home, Google Home and Alexa (off until switched on in Settings \u2192 Home apps). Updates and installs pause Bluetooth to save memory. Frosty no longer flashes when switching views.",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }

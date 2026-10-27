@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.0.0 (2026-10-27)
+
+Matter: Frosty in Apple Home, Google Home and Alexa (off until switched on in Settings → Home apps). Updates and installs pause Bluetooth to save memory. Frosty no longer flashes when switching views.
+
 ## 1.2.3 (2026-10-26)
 
 A schedule entry during a Comfort hold now releases it right away if the room needs it, without waiting out Min Hold. Holds that start right after a restart are timed correctly.
