@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.0.3 (2026-10-28)
+
+The rescue firmware is signed too and only installs signed releases (takes effect after a USB flash of this release's image).
+
 ## 2.0.2 (2026-10-28)
 
 Updates are now signed: the bridge installs only firmware signed by Frosty.

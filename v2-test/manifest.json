@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,14 +8,14 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.2.factory.bin",
+          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.3.factory.bin",
           "offset": 0
         }
       ],
       "ota": {
-        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.2.ota.bin",
-        "md5": "c81a669f66536977504e39a1f4b99dd3",
-        "summary": "Updates are now signed: the bridge installs only firmware signed by Frosty.",
+        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.3.ota.bin",
+        "md5": "b373fb98440fa4a100fca73ebb97ef7d",
+        "summary": "The rescue firmware is signed too and only installs signed releases (takes effect after a USB flash of this release's image).",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }
