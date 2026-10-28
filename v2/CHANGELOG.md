@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.0.2 (2026-10-28)
+
+Updates are now signed: the bridge installs only firmware signed by Frosty.
+
 ## 2.0.1 (2026-10-27)
 
 Frosty shows the louvre position after using the handheld remote again, and the unit's own Follow Me and display reports.
