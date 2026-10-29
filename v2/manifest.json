@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "frosty-v2-2.0.4.factory.bin",
+          "path": "frosty-v2-2.0.5.factory.bin",
           "offset": 0
         }
       ],
@@ -19,9 +19,9 @@
         "inputs": "3f05f25afd7cd48195f4456c4e499f8c4e64f40fdc1e028bdcad1eb58fe52863"
       },
       "ota": {
-        "path": "frosty-v2-2.0.4.ota.bin",
-        "md5": "91bde13c0ac4c652499e86bc88d32daa",
-        "summary": "The rescue firmware (what the bridge starts after a factory reset) can now be updated from Frosty: Settings \u2192 Software update. It downloads, checks the signature, then installs",
+        "path": "frosty-v2-2.0.5.ota.bin",
+        "md5": "fb7f5deb4536e59af99c13cb72f5e32e",
+        "summary": "Settings is back as a tab under Schedule; the \u2212 and + buttons sit closer to the dial.",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }

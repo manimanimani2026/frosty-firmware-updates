@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.0.5 (2026-10-29)
+
+Settings is back as a tab under Schedule; the − and + buttons sit closer to the dial.
+
 ## 2.0.4 (2026-10-29)
 
 The rescue firmware (what the bridge starts after a factory reset) can now be updated from Frosty: Settings → Software update. It downloads, checks the signature, then installs
