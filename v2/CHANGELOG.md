@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.0.4 (2026-10-29)
+
+The rescue firmware (what the bridge starts after a factory reset) can now be updated from Frosty: Settings → Software update. It downloads, checks the signature, then installs
+
 ## 2.0.3 (2026-10-28)
 
 The rescue firmware is signed too and only installs signed releases (takes effect after a USB flash of this release's image).
