@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "frosty-v2-2.0.6.factory.bin",
+          "path": "frosty-v2-2.0.7.factory.bin",
           "offset": 0
         }
       ],
@@ -19,9 +19,9 @@
         "inputs": "3f05f25afd7cd48195f4456c4e499f8c4e64f40fdc1e028bdcad1eb58fe52863"
       },
       "ota": {
-        "path": "frosty-v2-2.0.6.ota.bin",
-        "md5": "fd7e9d6eac470578c7ab1b9f868485c1",
-        "summary": "Fixes Follow Me stopping after a Wi-Fi blip on bridges with Home apps on; the Settings dot only shows when something needs attention",
+        "path": "frosty-v2-2.0.7.ota.bin",
+        "md5": "8f67c0306a2f64ff12aa52308362020f",
+        "summary": "Settings sections laid out like Controls; Logs has its own tab at the bottom; Check now waits for the answer",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }

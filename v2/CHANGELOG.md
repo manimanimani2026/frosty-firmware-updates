@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.0.7 (2026-10-30)
+
+Settings sections laid out like Controls; Logs has its own tab at the bottom; Check now waits for the answer
+
 ## 2.0.6 (2026-10-30)
 
 Fixes Follow Me stopping after a Wi-Fi blip on bridges with Home apps on; the Settings dot only shows when something needs attention
