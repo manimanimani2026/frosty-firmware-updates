@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.5.factory.bin",
+          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.6.factory.bin",
           "offset": 0
         }
       ],
@@ -19,9 +19,9 @@
         "inputs": "3f05f25afd7cd48195f4456c4e499f8c4e64f40fdc1e028bdcad1eb58fe52863"
       },
       "ota": {
-        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.5.ota.bin",
-        "md5": "fb7f5deb4536e59af99c13cb72f5e32e",
-        "summary": "Settings is back as a tab under Schedule; the \u2212 and + buttons sit closer to the dial.",
+        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.6.ota.bin",
+        "md5": "fd7e9d6eac470578c7ab1b9f868485c1",
+        "summary": "Fixes Follow Me stopping after a Wi-Fi blip on bridges with Home apps on; the Settings dot only shows when something needs attention",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }

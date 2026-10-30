@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.0.6 (2026-10-30)
+
+Fixes Follow Me stopping after a Wi-Fi blip on bridges with Home apps on; the Settings dot only shows when something needs attention
+
 ## 2.0.5 (2026-10-29)
 
 Settings is back as a tab under Schedule; the − and + buttons sit closer to the dial.
