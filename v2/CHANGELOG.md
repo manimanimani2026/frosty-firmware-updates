@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.0.9 (2026-11-01)
+
+Schedule times can also set the fan speed and louvre position (Keep leaves them as they are). The hold's running time stays visible when a reading is missed or right after a restart, instead of showing "…". 
+
 ## 2.0.8 (2026-11-01)
 
 When Comfort hold is collapsed, its line shows "Holds in 4m" while waiting and "Holding for 12m" during a hold, and nothing when it's simply on
