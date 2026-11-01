@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.0.10 (2026-11-01)
+
+Check now shows "Checking… · about 20 s", finishes as soon as the bridge's check is done, and then says "Up to date · checked just now" (or which update is available). 
+
 ## 2.0.9 (2026-11-01)
 
 Schedule times can also set the fan speed and louvre position (Keep leaves them as they are). The hold's running time stays visible when a reading is missed or right after a restart, instead of showing "…". 
