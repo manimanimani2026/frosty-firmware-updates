@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.0.8 (2026-11-01)
+
+When Comfort hold is collapsed, its line shows "Holds in 4m" while waiting and "Holding for 12m" during a hold, and nothing when it's simply on
+
 ## 2.0.7 (2026-10-30)
 
 Settings sections laid out like Controls; Logs has its own tab at the bottom; Check now waits for the answer
