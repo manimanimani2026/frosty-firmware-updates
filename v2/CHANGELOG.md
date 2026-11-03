@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.1.1 (2026-11-03)
+
+Safety and smaller fixes from the code review: the bridge refuses requests from other websites; a damaged rescue firmware slot is reported; °C/°F no longer flips once after a restart; home apps show the unit's real setpoint; Matter no longer slows the bridge while pairing or gives up its start on a brief memory dip; room sensors use less processing; display Resync reads the unit and fixes it; Active clean's Stop survives a restart; setup page scans tidied; old code cleaned up. 
+
 ## 2.1.0 (2026-11-03)
 
 Fixes from a full code review: a quiet hold now ends if the room sensor goes silent or Comfort hold is switched off; turning Follow Me off no longer turns it back on or changes Silent/Turbo; the louvre comes back after a hold ended by the remote; a hold pause and a schedule time missed during a restart are no longer lost; taps in Frosty no longer bounce back; the Matter panel refreshes; a failed install brings Install back; hold offsets show in °F; the Unit beeper setting shows again. 
