@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.1.2 (2026-11-03)
+
+Follow Me shows green during a quiet hold while the room sensor is heard (tap it to see the temperature where the hold ends). 
+
 ## 2.1.1 (2026-11-03)
 
 Safety and smaller fixes from the code review: the bridge refuses requests from other websites; a damaged rescue firmware slot is reported; °C/°F no longer flips once after a restart; home apps show the unit's real setpoint; Matter no longer slows the bridge while pairing or gives up its start on a brief memory dip; room sensors use less processing; display Resync reads the unit and fixes it; Active clean's Stop survives a restart; setup page scans tidied; old code cleaned up. 
