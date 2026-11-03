@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "2.0.10",
+  "version": "2.1.0",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.10.factory.bin",
+          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.1.0.factory.bin",
           "offset": 0
         }
       ],
@@ -19,9 +19,9 @@
         "inputs": "3f05f25afd7cd48195f4456c4e499f8c4e64f40fdc1e028bdcad1eb58fe52863"
       },
       "ota": {
-        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.0.10.ota.bin",
-        "md5": "4764017bc19f0b7581610c4be8766267",
-        "summary": "Check now shows \"Checking\u2026 \u00b7 about 20 s\", finishes as soon as the bridge's check is done, and then says \"Up to date \u00b7 checked just now\" (or which update is available). ",
+        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.1.0.ota.bin",
+        "md5": "61d9ae0be970cb11ec5277a84874cad5",
+        "summary": "Fixes from a full code review: a quiet hold now ends if the room sensor goes silent or Comfort hold is switched off; turning Follow Me off no longer turns it back on or changes Silent/Turbo; the louvre comes back after a hold ended by the remote; a hold pause and a schedule time missed during a restart are no longer lost; taps in Frosty no longer bounce back; the Matter panel refreshes; a failed install brings Install back; hold offsets show in \u00b0F; the Unit beeper setting shows again. ",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }

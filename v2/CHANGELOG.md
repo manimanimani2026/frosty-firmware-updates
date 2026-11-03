@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.1.0 (2026-11-03)
+
+Fixes from a full code review: a quiet hold now ends if the room sensor goes silent or Comfort hold is switched off; turning Follow Me off no longer turns it back on or changes Silent/Turbo; the louvre comes back after a hold ended by the remote; a hold pause and a schedule time missed during a restart are no longer lost; taps in Frosty no longer bounce back; the Matter panel refreshes; a failed install brings Install back; hold offsets show in °F; the Unit beeper setting shows again. 
+
 ## 2.0.10 (2026-11-01)
 
 Check now shows "Checking… · about 20 s", finishes as soon as the bridge's check is done, and then says "Up to date · checked just now" (or which update is available). 
