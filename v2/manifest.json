@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "frosty-v2-2.1.2.factory.bin",
+          "path": "frosty-v2-2.1.3.factory.bin",
           "offset": 0
         }
       ],
@@ -19,9 +19,9 @@
         "inputs": "34895fc55ebd0e6b400246769a62631969a16db132e2f0894098988488df235b"
       },
       "ota": {
-        "path": "frosty-v2-2.1.2.ota.bin",
-        "md5": "0dbcd6161876600441ead3ff20a82908",
-        "summary": "Follow Me shows green during a quiet hold while the room sensor is heard (tap it to see the temperature where the hold ends). ",
+        "path": "frosty-v2-2.1.3.ota.bin",
+        "md5": "3d45f03504938711aca288d410fde42d",
+        "summary": "Fixes two regressions from 2.1.0: a restart (update install or power blip) during a hold no longer ends the hold; turning Follow Me off during a quiet hold puts back your own fan speed instead of leaving the unit on Silent. ",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }

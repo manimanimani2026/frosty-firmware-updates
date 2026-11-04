@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.1.3 (2026-11-04)
+
+Fixes two regressions from 2.1.0: a restart (update install or power blip) during a hold no longer ends the hold; turning Follow Me off during a quiet hold puts back your own fan speed instead of leaving the unit on Silent. 
+
 ## 2.1.2 (2026-11-03)
 
 Follow Me shows green during a quiet hold while the room sensor is heard (tap it to see the temperature where the hold ends). 
