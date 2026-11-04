@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.1.4.factory.bin",
+          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.1.5.factory.bin",
           "offset": 0
         }
       ],
@@ -19,9 +19,9 @@
         "inputs": "296715dd21964381e2531b405c1bf96e9f6d3320197822460d7290bc4e210082"
       },
       "ota": {
-        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.1.4.ota.bin",
-        "md5": "ba131845c46b54686db3bfa9a9e44439",
-        "summary": "Fixes from the second and third code reviews: a hold pause now survives a restart; tapping Heat during a quiet hold (in Frosty or a home app) keeps the hold's setpoint; the dial shows a new quiet hold at once; Follow Me warns earlier when the room sensor goes quiet; the louvre comes back after a hold you took over; schedule times no longer repeat when the clocks go back and still run when they go forward; home apps show the right setpoint; installs, checks and rescue updates no longer overlap; a stronger block on requests from other websites; clearer update and rescue messages. ",
+        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.1.5.ota.bin",
+        "md5": "40fc0e2cfaf995b4d9f712ceda028fcd",
+        "summary": "Fixes a restart (update install) ending a quiet hold and leaving the unit in Fan; an install and a rescue update can no longer block each other; turning Follow Me off during a quiet hold reliably reaches the unit; a schedule time no longer runs twice when the clocks go back; a rescue update tapped while offline says so. ",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }
