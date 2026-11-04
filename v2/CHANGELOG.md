@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.1.4 (2026-11-04)
+
+Fixes from the second and third code reviews: a hold pause now survives a restart; tapping Heat during a quiet hold (in Frosty or a home app) keeps the hold's setpoint; the dial shows a new quiet hold at once; Follow Me warns earlier when the room sensor goes quiet; the louvre comes back after a hold you took over; schedule times no longer repeat when the clocks go back and still run when they go forward; home apps show the right setpoint; installs, checks and rescue updates no longer overlap; a stronger block on requests from other websites; clearer update and rescue messages. 
+
 ## 2.1.3 (2026-11-04)
 
 Fixes two regressions from 2.1.0: a restart (update install or power blip) during a hold no longer ends the hold; turning Follow Me off during a quiet hold puts back your own fan speed instead of leaving the unit on Silent. 
