@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.1.6 (2026-11-19)
+
+The louvre shows Sweep while the unit is sweeping (it showed the last fixed position, e.g. Top). 
+
 ## 2.1.5 (2026-11-04)
 
 Fixes a restart (update install) ending a quiet hold and leaving the unit in Fan; an install and a rescue update can no longer block each other; turning Follow Me off during a quiet hold reliably reaches the unit; a schedule time no longer runs twice when the clocks go back; a rescue update tapped while offline says so. 
