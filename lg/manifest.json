@@ -1,0 +1,29 @@
+{
+  "name": "Frosty LG",
+  "version": "0.1.0",
+  "home_assistant_domain": "esphome",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "frosty-lg-0.1.0.factory.bin",
+          "offset": 0
+        }
+      ],
+      "rescue": {
+        "path": "frosty-lg-rescue-0.1.0.bin",
+        "sha256": "159b2185335c8ed945df7c4c537c904d1724e7e0cc5d53c7f32a9ab5d76d57a3",
+        "size": 987136,
+        "inputs": "8bde2058f78b2f61b775ecd99d651a5b1c9a2f52f2c59a6436e31139ea7a0925"
+      },
+      "ota": {
+        "path": "frosty-lg-0.1.0.ota.bin",
+        "md5": "4c33d42a12b31a06f39919b6c3dd55fb",
+        "summary": "First LG release: Frosty on the LG board, by IR (remote mode) or on CN-REMO (port mode), picked from the unit's 12 V. Not yet tried on an LG unit.",
+        "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/lg/CHANGELOG.md"
+      }
+    }
+  ]
+}
