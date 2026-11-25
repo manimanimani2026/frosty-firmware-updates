@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.1.7 (2026-11-25)
+
+Internal cleanup: the Comfort hold and Schedule logic now live in their own files and are tested automatically on every change. Nothing should behave differently from 2.1.6.
+
 ## 2.1.6 (2026-11-19)
 
 The louvre shows Sweep while the unit is sweeping (it showed the last fixed position, e.g. Top). 
