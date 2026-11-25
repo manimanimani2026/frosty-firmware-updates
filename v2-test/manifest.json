@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.1.8.factory.bin",
+          "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.1.9.factory.bin",
           "offset": 0
         }
       ],
@@ -19,9 +19,9 @@
         "inputs": "296715dd21964381e2531b405c1bf96e9f6d3320197822460d7290bc4e210082"
       },
       "ota": {
-        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.1.8.ota.bin",
-        "md5": "2c975db0900194235cf4202e3f774764",
-        "summary": "Internal cleanup: everything Frosty sends to or reads from the heat pump now lives in one Midea driver file, with automatic tests. Nothing should behave differently from 2.1.7.",
+        "path": "https://manimanimani2026.github.io/frosty-firmware-updates/v2/frosty-v2-2.1.9.ota.bin",
+        "md5": "88a5a8c95d3d391075959ac3e0b37dbb",
+        "summary": "Internal cleanup: Frosty now uses its own names for heat pump modes and fan speeds, and knows what each unit can do. Nothing should behave differently from 2.1.8.",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }

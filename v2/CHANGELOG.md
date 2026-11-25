@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.1.9 (2026-11-25)
+
+Internal cleanup: Frosty now uses its own names for heat pump modes and fan speeds, and knows what each unit can do. Nothing should behave differently from 2.1.8.
+
 ## 2.1.8 (2026-11-25)
 
 Internal cleanup: everything Frosty sends to or reads from the heat pump now lives in one Midea driver file, with automatic tests. Nothing should behave differently from 2.1.7.
