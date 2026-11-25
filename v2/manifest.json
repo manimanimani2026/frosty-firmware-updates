@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "2.1.9",
+  "version": "2.1.10",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "frosty-v2-2.1.9.factory.bin",
+          "path": "frosty-v2-2.1.10.factory.bin",
           "offset": 0
         }
       ],
@@ -19,9 +19,9 @@
         "inputs": "296715dd21964381e2531b405c1bf96e9f6d3320197822460d7290bc4e210082"
       },
       "ota": {
-        "path": "frosty-v2-2.1.9.ota.bin",
-        "md5": "88a5a8c95d3d391075959ac3e0b37dbb",
-        "summary": "Internal cleanup: Frosty now uses its own names for heat pump modes and fan speeds, and knows what each unit can do. Nothing should behave differently from 2.1.8.",
+        "path": "frosty-v2-2.1.10.ota.bin",
+        "md5": "8fb54dd17aa373a5b109a3d7d327adb9",
+        "summary": "Internal cleanup: the firmware is now built from separate parts (Frosty, the heat pump driver, the board) so other brands can be added. Nothing should behave differently from 2.1.9.",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }

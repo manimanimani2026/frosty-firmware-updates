@@ -1,5 +1,9 @@
 # Frosty V2 releases
 
+## 2.1.10 (2026-11-25)
+
+Internal cleanup: the firmware is now built from separate parts (Frosty, the heat pump driver, the board) so other brands can be added. Nothing should behave differently from 2.1.9.
+
 ## 2.1.9 (2026-11-25)
 
 Internal cleanup: Frosty now uses its own names for heat pump modes and fan speeds, and knows what each unit can do. Nothing should behave differently from 2.1.8.
