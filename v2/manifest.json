@@ -1,6 +1,6 @@
 {
   "name": "Frosty V2",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "frosty-v2-2.1.7.factory.bin",
+          "path": "frosty-v2-2.1.8.factory.bin",
           "offset": 0
         }
       ],
@@ -19,9 +19,9 @@
         "inputs": "296715dd21964381e2531b405c1bf96e9f6d3320197822460d7290bc4e210082"
       },
       "ota": {
-        "path": "frosty-v2-2.1.7.ota.bin",
-        "md5": "789101353c2cd4f1a36e8760bac2a4b5",
-        "summary": "Internal cleanup: the Comfort hold and Schedule logic now live in their own files and are tested automatically on every change. Nothing should behave differently from 2.1.6.",
+        "path": "frosty-v2-2.1.8.ota.bin",
+        "md5": "2c975db0900194235cf4202e3f774764",
+        "summary": "Internal cleanup: everything Frosty sends to or reads from the heat pump now lives in one Midea driver file, with automatic tests. Nothing should behave differently from 2.1.7.",
         "release_url": "https://github.com/manimanimani2026/frosty-firmware-updates/blob/main/v2/CHANGELOG.md"
       }
     }
